@@ -7,25 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DABE9CAA2BC96B5900898F4E /* StopwatchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE9CA92BC96B5900898F4E /* StopwatchViewController.swift */; };
+		DABE9CAC2BC96D7800898F4E /* TimerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DABE9CAB2BC96D7800898F4E /* TimerViewController.swift */; };
 		DADBDB732BC7F31200AFCA64 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB722BC7F31200AFCA64 /* AppDelegate.swift */; };
 		DADBDB752BC7F31200AFCA64 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB742BC7F31200AFCA64 /* SceneDelegate.swift */; };
-		DADBDB772BC7F31200AFCA64 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB762BC7F31200AFCA64 /* ViewController.swift */; };
-		DADBDB7A2BC7F31200AFCA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DADBDB792BC7F31200AFCA64 /* Base */; };
+		DADBDB772BC7F31200AFCA64 /* WorldClockViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB762BC7F31200AFCA64 /* WorldClockViewController.swift */; };
 		DADBDB7D2BC7F31200AFCA64 /* SystemClock.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB7B2BC7F31200AFCA64 /* SystemClock.xcdatamodeld */; };
 		DADBDB7F2BC7F31300AFCA64 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DADBDB7E2BC7F31300AFCA64 /* Assets.xcassets */; };
 		DADBDB822BC7F31300AFCA64 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = DADBDB812BC7F31300AFCA64 /* Base */; };
+		DADBDB8B2BC7F35C00AFCA64 /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = DADBDB8A2BC7F35C00AFCA64 /* SnapKit */; };
+		DADBDB952BC9507700AFCA64 /* ClockTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB942BC9507700AFCA64 /* ClockTabBarController.swift */; };
+		DADBDB972BC9530300AFCA64 /* AlarmViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DADBDB962BC9530300AFCA64 /* AlarmViewController.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		DADBDB8F2BC7F36900AFCA64 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		DABE9CA92BC96B5900898F4E /* StopwatchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StopwatchViewController.swift; sourceTree = "<group>"; };
+		DABE9CAB2BC96D7800898F4E /* TimerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimerViewController.swift; sourceTree = "<group>"; };
 		DADBDB6F2BC7F31200AFCA64 /* SystemClock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SystemClock.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DADBDB722BC7F31200AFCA64 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DADBDB742BC7F31200AFCA64 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		DADBDB762BC7F31200AFCA64 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		DADBDB792BC7F31200AFCA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		DADBDB762BC7F31200AFCA64 /* WorldClockViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WorldClockViewController.swift; sourceTree = "<group>"; };
 		DADBDB7C2BC7F31200AFCA64 /* SystemClock.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SystemClock.xcdatamodel; sourceTree = "<group>"; };
 		DADBDB7E2BC7F31300AFCA64 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DADBDB812BC7F31300AFCA64 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DADBDB832BC7F31300AFCA64 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DADBDB942BC9507700AFCA64 /* ClockTabBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ClockTabBarController.swift; sourceTree = "<group>"; };
+		DADBDB962BC9530300AFCA64 /* AlarmViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlarmViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,12 +53,33 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DADBDB8B2BC7F35C00AFCA64 /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DABE9CAD2BC9700600898F4E /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				DABE9CAE2BC98CF800898F4E /* Views */,
+				DADBDB962BC9530300AFCA64 /* AlarmViewController.swift */,
+				DADBDB942BC9507700AFCA64 /* ClockTabBarController.swift */,
+				DABE9CA92BC96B5900898F4E /* StopwatchViewController.swift */,
+				DABE9CAB2BC96D7800898F4E /* TimerViewController.swift */,
+				DADBDB762BC7F31200AFCA64 /* WorldClockViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		DABE9CAE2BC98CF800898F4E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		DADBDB662BC7F31200AFCA64 = {
 			isa = PBXGroup;
 			children = (
@@ -58,10 +99,9 @@
 		DADBDB712BC7F31200AFCA64 /* SystemClock */ = {
 			isa = PBXGroup;
 			children = (
+				DABE9CAD2BC9700600898F4E /* ViewControllers */,
 				DADBDB722BC7F31200AFCA64 /* AppDelegate.swift */,
 				DADBDB742BC7F31200AFCA64 /* SceneDelegate.swift */,
-				DADBDB762BC7F31200AFCA64 /* ViewController.swift */,
-				DADBDB782BC7F31200AFCA64 /* Main.storyboard */,
 				DADBDB7E2BC7F31300AFCA64 /* Assets.xcassets */,
 				DADBDB802BC7F31300AFCA64 /* LaunchScreen.storyboard */,
 				DADBDB832BC7F31300AFCA64 /* Info.plist */,
@@ -80,12 +120,16 @@
 				DADBDB6B2BC7F31200AFCA64 /* Sources */,
 				DADBDB6C2BC7F31200AFCA64 /* Frameworks */,
 				DADBDB6D2BC7F31200AFCA64 /* Resources */,
+				DADBDB8F2BC7F36900AFCA64 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			name = SystemClock;
+			packageProductDependencies = (
+				DADBDB8A2BC7F35C00AFCA64 /* SnapKit */,
+			);
 			productName = SystemClock;
 			productReference = DADBDB6F2BC7F31200AFCA64 /* SystemClock.app */;
 			productType = "com.apple.product-type.application";
@@ -114,6 +158,9 @@
 				Base,
 			);
 			mainGroup = DADBDB662BC7F31200AFCA64;
+			packageReferences = (
+				DADBDB892BC7F35C00AFCA64 /* XCRemoteSwiftPackageReference "SnapKit" */,
+			);
 			productRefGroup = DADBDB702BC7F31200AFCA64 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -130,7 +177,6 @@
 			files = (
 				DADBDB7F2BC7F31300AFCA64 /* Assets.xcassets in Resources */,
 				DADBDB822BC7F31300AFCA64 /* Base in Resources */,
-				DADBDB7A2BC7F31200AFCA64 /* Base in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -141,9 +187,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DADBDB772BC7F31200AFCA64 /* ViewController.swift in Sources */,
+				DADBDB772BC7F31200AFCA64 /* WorldClockViewController.swift in Sources */,
+				DADBDB952BC9507700AFCA64 /* ClockTabBarController.swift in Sources */,
+				DADBDB972BC9530300AFCA64 /* AlarmViewController.swift in Sources */,
 				DADBDB7D2BC7F31200AFCA64 /* SystemClock.xcdatamodeld in Sources */,
+				DABE9CAC2BC96D7800898F4E /* TimerViewController.swift in Sources */,
 				DADBDB732BC7F31200AFCA64 /* AppDelegate.swift in Sources */,
+				DABE9CAA2BC96B5900898F4E /* StopwatchViewController.swift in Sources */,
 				DADBDB752BC7F31200AFCA64 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -151,14 +201,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		DADBDB782BC7F31200AFCA64 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				DADBDB792BC7F31200AFCA64 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		DADBDB802BC7F31300AFCA64 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -297,18 +339,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BG8CHM22AC;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SystemClock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Awakenone1.SystemClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -325,18 +370,21 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = BG8CHM22AC;
+				EXCLUDED_ARCHS = "";
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = SystemClock/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
+				INFOPLIST_KEY_UIStatusBarStyle = UIStatusBarStyleDarkContent;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.Awakenone1.SystemClock;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -367,6 +415,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		DADBDB892BC7F35C00AFCA64 /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.7.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		DADBDB8A2BC7F35C00AFCA64 /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = DADBDB892BC7F35C00AFCA64 /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
+		};
+/* End XCSwiftPackageProductDependency section */
 
 /* Begin XCVersionGroup section */
 		DADBDB7B2BC7F31200AFCA64 /* SystemClock.xcdatamodeld */ = {
